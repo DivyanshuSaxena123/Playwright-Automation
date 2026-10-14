@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run WebAPIPart1 (Headed)",
+            "runtimeExecutable": "/Users/punchh_divyanshu/.nvm/versions/node/v20.19.2/bin/npm",
+            "cwd": "${workspaceFolder}",
+            "args": ["run", "test"],
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug WebAPIPart1",
+            "runtimeExecutable": "/Users/punchh_divyanshu/.nvm/versions/node/v20.19.2/bin/npm",
+            "cwd": "${workspaceFolder}",
+            "args": ["run", "test:debug"],
+            "env": {
+                "PWDEBUG": "1"
+            },
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run All Tests",
+            "runtimeExecutable": "/Users/punchh_divyanshu/.nvm/versions/node/v20.19.2/bin/npm",
+            "cwd": "${workspaceFolder}",
+            "args": ["run", "test:all"],
+            "console": "integratedTerminal"
+        }
+    ]
+}

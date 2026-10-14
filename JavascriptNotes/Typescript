@@ -1,0 +1,22 @@
+Here we will learn about Javascript and Typescript language
+
+Typescript is not a new language it is a superset language of Javascript. So, all code that we write in Javascript is valid in Typescript . In layman terms understand like this
+
+TypeScript = JavaScript + Addition Features
+TypeScript = JavaScript - Point here is if we dont write additional feature of Typescript and save the file with (.ts) extension then also we will be able to run Javascript file although it will show some warnings but it will not block us.
+
+Note:-
+But we cannot run typescript file directly just like we do for javascript . as we know 
+that to run javascript file we need to run  this - "node fileName.js" but for typescript we need to convert typescript to javascript and then run this node command 
+
+
+Step to run the Javascript File
+
+1) tsc demo.ts - "tsc" stands for typescript compiler this will compile typescript file and it will generate "demo.js" one javascript file
+
+2) node demo.js
+
+To use typescript in project we need to install typescript run this command in terminal to install typescript
+"npm install -D typescript". 
+     or if we want to save this dependecy in your project package.json 
+"npm install --save-dev typescript"

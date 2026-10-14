@@ -1,0 +1,22 @@
+[{
+    "productName" : "ZARA COAT 3",
+    "cardCvv" : "123",
+    "cardName" : "Divyanshu Saxena",
+    "couponCode" : "rahulshettyacademy",
+    "country" : "ind",
+    "Email" : "divyanshu@yopmail.com",
+    "Password" : "Test@123",
+    "orderSummaryText" : " Thankyou for the order. "
+},
+{
+    "productName" : "ADIDAS ORIGINAL",
+    "cardCvv" : "123",
+    "cardName" : "Ravi Verma",
+    "couponCode" : "rahulshettyacademy",
+    "country" : "ind",
+    "Email" : "ravi@yopmail.com",
+    "Password" : "Test@123",
+    "orderSummaryText" : " Thankyou for the order. "
+    
+}
+]
